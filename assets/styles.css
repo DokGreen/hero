@@ -1,0 +1,38 @@
+/*----------------------------------VARIABLES*/
+/*----------------------------------GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  font-size: 2vw;
+}
+
+h5 {
+  font-size: 4.5vw;
+}
+
+.input {
+  margin-bottom: 6vw;
+}
+
+#name {
+  font-size: 1vw;
+}
+/*# sourceMappingURL=styles.css.map */
