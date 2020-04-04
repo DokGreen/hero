@@ -1,7 +1,3 @@
-/*----------------------------------VARIABLES*/
-$Lfont: 2vw;
-$Sfont: 1vw;
-
 /*----------------------------------GLOBAL*/
 * {
     margin: 0;
@@ -15,19 +11,41 @@ $Sfont: 1vw;
     align-items: center;
 }
 
-label {
-    font-size: $Lfont;
-}
-
-h5 {
-    font-size: 4.5vw;
-}
-
 .input {
-    margin-bottom: 6vw;
+    margin-bottom: 1vw;
 }
 
-#name {
-    font-size: $Sfont;
+#hBtn {
+    padding: 1vw;
+    margin-top: 2vw;
+    border: none;
+    font-size: 2vw;
+    border-radius: 0.5vw;
 }
 
+#hBtn:active {
+    transform: translateY(0.2vh);
+}
+
+.char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-size: 2.5vw;
+    }
+
+    h5 {
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+
+    img {
+        width: 20vw;
+    }
+
+    p {
+        font-size: 1.2vw;
+    }
+}
